@@ -20,3 +20,11 @@ create table usa_visa(
 	decision_date	date	NOT NULL,
 	case_status	varchar(20)	NOT NULL
 );
+
+create table emails(
+	email varchar(50)
+);
+
+create table words(
+	word  varchar(20)
+);
