@@ -28,3 +28,32 @@ create table emails(
 create table words(
 	word  varchar(20)
 );
+
+create table customers(
+	order_no 			int not NULL,
+	customer_name		varchar(100) not NULL,
+	cust_city			varchar(50),
+	cust_state			varchar(50),
+	postal_code			varchar(30),
+	country				varchar(50)
+);
+
+create table orders(
+	order_no			int not null,
+	quantities			int not null,
+	item_price			float not null,
+	order_line_no		int,
+	order_date			date,
+	status				varchar(20),
+	product_line		varchar(50),
+	msrp				float
+);
+
+create table regional_sales(
+	order_id			int not null,
+	total_sale_amount	float not null,
+	quarter_id			int,
+	product_sku			varchar(50),
+	region				varchar(30),
+	order_size			varchar(30)
+);
