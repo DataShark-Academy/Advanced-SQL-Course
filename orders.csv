@@ -2822,3 +2822,8 @@ Order_no,Quantities,Item_price,Order_line_no,Order_date,Status,Product_line,MSRP
 10386,43,100,4,3/1/2005 0:00,Resolved,Ships,54
 10397,34,62.24,1,3/28/2005 0:00,Shipped,Ships,54
 10414,47,65.52,9,5/6/2005 0:00,On Hold,Ships,54
+99991,10,99,,,,Ships,54
+99992,11,99,,,,Ships,54
+99993,12,100,,,,Planes,24
+,,200,,,,Planes,45
+,,300,,,,Ships,54

@@ -30,8 +30,8 @@ create table words(
 );
 
 create table customers(
-	order_no 			int not NULL,
-	customer_name		varchar(100) not NULL,
+	order_no 			int,
+	customer_name		varchar(100),
 	cust_city			varchar(50),
 	cust_state			varchar(50),
 	postal_code			varchar(30),
@@ -39,9 +39,9 @@ create table customers(
 );
 
 create table orders(
-	order_no			int not null,
-	quantities			int not null,
-	item_price			float not null,
+	order_no			int,
+	quantities			int,
+	item_price			float,
 	order_line_no		int,
 	order_date			date,
 	status				varchar(20),
@@ -50,8 +50,8 @@ create table orders(
 );
 
 create table regional_sales(
-	order_id			int not null,
-	total_sale_amount	float not null,
+	order_id			int,
+	total_sale_amount	float,
 	quarter_id			int,
 	product_sku			varchar(50),
 	region				varchar(30),
