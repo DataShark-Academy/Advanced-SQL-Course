@@ -57,3 +57,13 @@ create table regional_sales(
 	region				varchar(30),
 	order_size			varchar(30)
 );
+
+create table employees(
+	emp_id		int not null,
+	first_name	varchar(30),
+	last_name	varchar(30),
+	department	varchar(60),
+	salary		int,
+	hire_date	date,
+	region_id	varchar(10)
+);
